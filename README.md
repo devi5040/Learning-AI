@@ -13,3 +13,6 @@ Tracking my learning through this repo
 &#9989; Dictionaries
 &#9989; Functions
 &#9989; Lambda, Map and Filter
+&#9989; Modules and Packages
+&#9989; Standard Library Overview
+&#9989; File operations in python
