@@ -16,3 +16,4 @@ Tracking my learning through this repo
 &#9989; Modules and Packages
 &#9989; Standard Library Overview
 &#9989; File operations in python
+&#9989; Working with file paths
