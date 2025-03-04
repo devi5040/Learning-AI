@@ -18,3 +18,4 @@ Tracking my learning through this repo
 &#9989; File operations in python
 &#9989; Working with file paths
 &#9989; Exceptions
+&#9989; Classes and objects
