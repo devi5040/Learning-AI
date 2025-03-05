@@ -14,7 +14,7 @@ Tracking my learning through this repo
 &#9989; Functions<br/>
 &#9989; Lambda, Map and Filter<br/>
 &#9989; Modules and Packages<br/>
-&#9989; Standard Library Overview<br/><br/>
+&#9989; Standard Library Overview<br/>
 &#9989; File operations in python<br/>
 &#9989; Working with file paths<br/>
 &#9989; Exceptions<br/>
