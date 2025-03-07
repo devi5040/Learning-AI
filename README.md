@@ -19,3 +19,4 @@ Tracking my learning through this repo
 &#9989; Working with file paths<br/>
 &#9989; Exceptions<br/>
 &#9989; Classes and objects<br/>
+&#9989; Inheritance, Polymorphism, Encapsulation and Abstraction<br/>
