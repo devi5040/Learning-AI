@@ -20,3 +20,7 @@ Tracking my learning through this repo
 &#9989; Exceptions<br/>
 &#9989; Classes and objects<br/>
 &#9989; Inheritance, Polymorphism, Encapsulation and Abstraction<br/>
+&#9989; Operators overloading<br/>
+&#9989; Iterators and generators<br/>
+&#9989; Magic methods<br/>
+&#9989; Function copy, closure and decorators<br/>

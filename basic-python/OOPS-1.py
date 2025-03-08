@@ -10,6 +10,7 @@ d.speak()  # Inherited from Animal
 d.bark()   # Defined in Dog
 
 # POLYMORPHISM
+# Method overriding
 class Animal:
     def speak(self):
         print("Animal makes a sound")
@@ -22,6 +23,15 @@ class Cat(Animal):
 animals = [Dog(), Cat()]
 for animal in animals:
     animal.speak()  # Calls the overridden method
+
+# method overloading
+class Math:
+    def add(self, a, b, c=0):
+        return a + b + c
+m = Math()
+print(m.add(2, 3))    # Uses 2 parameters
+print(m.add(2, 3, 5)) # Uses 3 parameters
+
 
 # ENCAPSULATION
 class BankAccount:
