@@ -1,6 +1,7 @@
 # Learning-AI
 Tracking my learning through this repo
 
+Python Basics
 &#9989; Different ways of creating a virtual env using python <br/>
 &#9989; Variables in Python <br/>
 &#9989; data types in python <br/>
@@ -24,3 +25,7 @@ Tracking my learning through this repo
 &#9989; Iterators and generators<br/>
 &#9989; Magic methods<br/>
 &#9989; Function copy, closure and decorators<br/>
+
+Data analysis in python
+&#9989; Numpy<br/>
+&#9989; Pandas series and dataframes<br/>
