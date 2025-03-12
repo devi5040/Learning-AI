@@ -29,3 +29,4 @@ Python Basics
 Data analysis in python
 &#9989; Numpy<br/>
 &#9989; Pandas series and dataframes<br/>
+&#9989; Data Visualization using matplotlib<br/>
