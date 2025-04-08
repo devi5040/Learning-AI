@@ -32,3 +32,4 @@ Data analysis in python
 &#9989; Data Visualization using matplotlib<br/>
 &#9989; Data Visualization using Seaborn<br/>
 &#9989; Loggers<br/>
+&#9989; Multiple Loggers<br/>
