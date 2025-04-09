@@ -17,3 +17,28 @@
 3. Reinforcement Learning
 -> The agent interacts with environment and learns by trial and error. It gets rewards for good actions and punishments for bad actions.
 -> Common Algorithms: Q-Learning, Deep Q-Network (DQN), Policy Gradient
+
+Example:
+Supervised Learning Example-> Email Spam Detection
+
+Email Text	                                Label
+“You won a free iPhone! Click here!”	    Spam
+“Meeting agenda for tomorrow”	            Not Spam
+“Get rich quick, limited time offer!”	    Spam
+
+
+Unsupervised Learning Example: Customer Segmentation in a Shopping App
+Customer	Age	    Avg. Purchase ($)	Visits/Month
+A	        22	    50	                5
+B	        40	    600	                2
+C	        35	    500	                3
+D	        24	    70	                6
+You don’t know their categories, but you want to group them.
+
+The model clusters customers into:
+Group 1: Budget Shoppers
+Group 2: Premium Shoppers
+Group 3: Occasional Buyers
+
+
+Reinforcement Learning Example: Self-driving Car Learning to Park
