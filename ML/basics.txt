@@ -1,0 +1,19 @@
+# ML definition
+#Machine Learning is a branch of Artificial Intelligence (AI) that teaches computers to learn from data and make decisions or predictions without being explicitly programmed for each task.
+
+# Types 
+1. Supervised learning
+2. Unsupervised Learning
+3. Reinforcement Learning
+
+1. Supervised learning
+-> We provide both input and output to the machine and it learns the mapping between them.
+-> Common Algorithms: Linear Regression, Decision Trees, SVM, Random Forest, Neural Networks
+
+2. Unsupervised Learning
+-> We provide only the input without any labels, the model finds hidden patterns or groupings.
+-> Common Algorithms: K-Means Clustering, PCA (for dimensionality reduction), DBSCAN
+
+3. Reinforcement Learning
+-> The agent interacts with environment and learns by trial and error. It gets rewards for good actions and punishments for bad actions.
+-> Common Algorithms: Q-Learning, Deep Q-Network (DQN), Policy Gradient
