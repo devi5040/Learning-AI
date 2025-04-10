@@ -1,0 +1,27 @@
+Features
+-> Input data that helps the model learn.
+
+Labels.
+-> Output / the answer we want the model to predict.
+
+Example:
+Size (sqft)	    Bedrooms	    Location	    Price ($)
+1200	        2	            Urban	        200,000
+=> Features = Size, Bedrooms, Location
+=> Label = Price
+*** “Given size, bedrooms, and location → What is the price?”
+
+
+Training and Testing Split
+Data Set	        Purpose
+Training set	    Used to train the model (learn patterns)
+Testing set	        Used to evaluate model performance
+-> Typically the split is - 80% training, 20% testing (can also be 70-30 or 60-40)
+
+Example Workflow:
+You have 1,000 rows of data (houses).
+Split:
+800 → training
+200 → testing
+Train the model on 800 examples (it learns patterns).
+Test it on 200 unseen examples (see how well it predicts).
