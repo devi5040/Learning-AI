@@ -1,0 +1,17 @@
+1. Underfitting = “Too Simple to Get it Right”
+* The model is too basic to learn the underlying patterns in the data.
+* It performs poorly on both training and test data.
+* Happens when the model doesn’t learn enough.
+
+2. Overfitting = “Too Smart for its Own Good”
+* The model memorizes the training data, including noise.
+* It performs great on training, but poorly on unseen (test) data.
+
+3. Bias-Variance Tradeoff
+Term	        Description	                                    Leads to
+Bias	        Error from overly simplistic assumptions	    Underfitting
+Variance	    Error from being too sensitive to noise	        Overfitting
+
+Low Bias + High Variance = Great on training, bad on testing ❌
+High Bias + Low Variance = Bad on both ❌
+Balanced Bias & Variance = Good on both ✅
