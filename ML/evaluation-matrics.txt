@@ -1,0 +1,31 @@
+Example Scenario: Pizza Delivery Classification
+You’ve built a model to predict if a delivery is “On Time” or “Late”.
+Confusion Matrix:
+                    Predicted: On Time	                  Predicted: Late
+Actual: On Time	    ✅ True Positive (TP) = 70	        ❌ False Negative (FN) = 10
+Actual: Late	    ❌ False Positive (FP) = 5	        ✅ True Negative (TN) = 15
+
+Evaluation Metrics:
+1. Accuracy
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+         = (70 + 15) / (70 + 15 + 5 + 10) = 85 / 100 = 85%
+Problem: Not reliable if classes are imbalanced.
+
+2. Precision
+Precision = TP / (TP + FP)
+          = 70 / (70 + 5) = 70 / 75 ≈ 93.3%
+Good when false positives are costly (e.g., predicting diseases).
+
+3. Recall (a.k.a. Sensitivity)
+Of all the actual “On Time” deliveries, how many did we catch?
+Recall = TP / (TP + FN)
+       = 70 / (70 + 10) = 70 / 80 = 87.5%
+High recall = Fewer missed cases
+Useful when missing true cases is risky (e.g., cancer detection).
+
+4. F1-Score (Harmonic Mean of Precision & Recall)
+Balances Precision and Recall into one number.
+F1 = 2 * (Precision * Recall) / (Precision + Recall)
+   = 2 * (0.933 * 0.875) / (0.933 + 0.875)
+   ≈ 0.903 or 90.3%
+Best when you need a balance between precision & recall.
