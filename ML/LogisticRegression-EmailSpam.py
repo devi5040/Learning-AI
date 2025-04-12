@@ -16,7 +16,11 @@ y = data['label']       # Label: 1 = spam, 0 = not spam
 vectorizer = CountVectorizer()      # Convert text to numbers
 x_vectorized = vectorizer.fit_transform(x)
 
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3,random_state=42)
+print('x and vectorized')
+print(x)
+print(x_vectorized)
+
+x_train, x_test, y_train, y_test = train_test_split(x_vectorized, y, test_size=0.3,random_state=42)
 
 # train the model
 model = LogisticRegression()
