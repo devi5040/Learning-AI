@@ -1,5 +1,10 @@
-text	label
-Win money now!!!	1
-Meeting at 10am tomorrow	0
-Free coupons just for you	1
-Here is the report you asked for	0
+text,label
+Win money now!!!,1
+Meeting at 10am tomorrow,0
+"Free coupons just for you	",1
+Here is the report you asked for,0
+Good morning,0
+Good night,0
+Offer,1
+You won some amount,1
+Meeting over,0
