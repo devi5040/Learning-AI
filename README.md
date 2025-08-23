@@ -1,35 +1,69 @@
 # Learning-AI
+
 Tracking my learning through this repo
 
-Python Basics
-&#9989; Different ways of creating a virtual env using python <br/>
-&#9989; Variables in Python <br/>
-&#9989; data types in python <br/>
-&#9989; Operators in python <br/>
-&#9989; Conditional statements <br/>
-&#9989; Loops <br/>
-&#9989; Lists <br/>
-&#9989; Tuple<br/>
-&#9989; Sets<br/>
-&#9989; Dictionaries<br/>
-&#9989; Functions<br/>
-&#9989; Lambda, Map and Filter<br/>
-&#9989; Modules and Packages<br/>
-&#9989; Standard Library Overview<br/>
-&#9989; File operations in python<br/>
-&#9989; Working with file paths<br/>
-&#9989; Exceptions<br/>
-&#9989; Classes and objects<br/>
-&#9989; Inheritance, Polymorphism, Encapsulation and Abstraction<br/>
-&#9989; Operators overloading<br/>
-&#9989; Iterators and generators<br/>
-&#9989; Magic methods<br/>
-&#9989; Function copy, closure and decorators<br/>
+## What is Machine Learning (ML)?
 
-Data analysis in python
-&#9989; Numpy<br/>
-&#9989; Pandas series and dataframes<br/>
-&#9989; Data Visualization using matplotlib<br/>
-&#9989; Data Visualization using Seaborn<br/>
-&#9989; Loggers<br/>
-&#9989; Multiple Loggers<br/>
+Machine Learning is a branch of Artificial Intelligence where computers learn patterns from data and make predictions or decisions without being explicitly programmed.
+
+---
+
+---
+
+## Types Of ML
+
+1. Supervised Learning
+   The model learns from labeled data (input + known output)
+   Example
+   Predicting house prices (regression)
+   Spam email detection (classification)
+2. Unsupervised Learning
+   The model learns from unlabeled data (only inputs, no outputs)
+   Example:
+   Customer segmentation (clustering)
+   Dimensionality reduction (PCA)
+3. Reinforcement Learning
+   The model learns by trial and error, receiving rewards or penalties.
+   Example:
+   Game AI (chess, Go, video games)
+   self-driving cars
+
+---
+
+---
+
+## ML Workflow
+
+1. Data Collection: Gather data from sources like files, databases, APIs.
+2. Data Preprocessing: Clean the data, handle missing values, remove duplicates, scale features.
+3. Feature Engineering: Select or create important features to improve model performance.
+4. Modeling: Choose and train a machine learning algorithm.
+5. Evaluation: Test the model using metrics to see how well it performs on unseen data.
+
+---
+
+---
+
+## Evaluation Metrics
+
+a. Classification Metrics (for predicting categories)
+
+- Accuracy: (correct predictions/Total predictions) - not reliable for imbalanced datasets.
+- Precision: (true positives/predicted positives) - how many predicted positives are actually positive.
+- Recall (sensitivity): (true positives/Actual positives) - how many actual positives did the model catch.
+- F1-score: Harmonic mean of precision and recall:
+  F1=2*((precision*Recall)/(precision+recall))
+- ROC-AUC: Measures how well the model separates classes across thresholds. AUC=1 is perfect.
+
+---
+
+b. Regression Metrics (for predicting continuous values)
+
+- Mean squarred error: Average squared difference between predicted and actual values.
+- Root Mean Squared Error: Square root of MSE; same units as target variable.
+- Mean Absolute Error: Average absolute difference between predicted and actual values.
+- R-squared: Fraction of variance in target variable explained by the model. 1 is perfect fit, model predicts no better than mean.
+
+---
+
+---
