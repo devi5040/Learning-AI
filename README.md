@@ -86,7 +86,7 @@ Types of Problems:
    **Minimizing the error(The least squares method)**: To find best-fit line we use a method called Least Squares.
    The idea behind this method is to minimize the sum of squared differences between the actual values and the predicted values from the line.
    These differences are called residuals.
-   Residual = y_i - u_hat_i
+   Residual = yᵢ − ŷᵢ
    yi is actual observed value
    y^i is predicted value from the line for xi
    Sumofsquarederrors(SSE)=Σ (yi - ŷi)^2
