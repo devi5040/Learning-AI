@@ -1,18 +1,20 @@
 # Linear Regression
 
 A simple regression algorithm that models the relationship between input variables (X) and output variable (Y) as a straight line.
-**Best Fit Line**: It is the straight line that most accurately represents the relationship between the independent variable(input) and dependent variable (output).
-_Goal of Best Fit Line_: The goal of linear regression is to find a straight line that minimizes the error between the observed data points and the predicted values. This line helps us predict the dependent variable for new, unseen data.
-**Equation of Best-Fit Line**: The best-fit line is represented by the equation
-y = mx+b
-**Minimizing the error(The least squares method)**: To find best-fit line we use a method called Least Squares.
-The idea behind this method is to minimize the sum of squared differences between the actual values and the predicted values from the line.
-These differences are called residuals.
-Residual = yᵢ − ŷᵢ
-yi is actual observed value
-y^i is predicted value from the line for xi
-Sumofsquarederrors(SSE)=Σ (yi - ŷi)^2
-**Interpretation of Best-Fit Line**
+
+- **Best Fit Line**: It is the straight line that most accurately represents the relationship between the independent variable(input) and dependent variable (output).
+
+- _Goal of Best Fit Line_: The goal of linear regression is to find a straight line that minimizes the error between the observed data points and the predicted values. This line helps us predict the dependent variable for new, unseen data.
+- **Equation of Best-Fit Line**: The best-fit line is represented by the equation
+  y = mx+b
+- **Minimizing the error(The least squares method)**: To find best-fit line we use a method called Least Squares.
+  The idea behind this method is to minimize the sum of squared differences between the actual values and the predicted values from the line.
+  These differences are called residuals.
+  Residual = yᵢ − ŷᵢ
+  yi is actual observed value
+  y^i is predicted value from the line for xi
+  Sumofsquarederrors(SSE)=Σ (yi - ŷi)^2
+- **Interpretation of Best-Fit Line**
 
 - Slope (m): The slope of the best-fit line indicates how much the dependent variable (y) changes with each unit change in the independent variable (x).
 - Intercept (b): The intercept represents the predicted value of y when x = 0. It’s the point where the line crosses the y-axis.
