@@ -2,6 +2,7 @@ import express from "express";
 import rateLimit from "express-rate-limit";
 import Openai from "openai";
 import dotenv from "dotenv";
+import fs from "fs";
 
 const app = express();
 
@@ -34,6 +35,54 @@ const response = await client.responses.create({
 });
 
 console.log(response.output_text);
+
+// Analyze images and files
+const response_image = await client.responses.create({
+  model: "gpt-4",
+  input: [
+    {
+      role: "user",
+      content: [
+        { type: "input_text", text: "What is in this image?" },
+        {
+          type: "input_image",
+          image_url:
+            "https://openai-documentation.vercel.app/images/cat_and_otter.png",
+          detail: "auto",
+        },
+      ],
+    },
+  ],
+});
+
+console.log(response_image.output_text);
+
+// Uploading the file
+const file = await client.files.create({
+  file: fs.createReadStream("image.png"),
+  purpose: "user_data",
+});
+
+const response_upload_file = await client.responses.create({
+  model: "chatgpt-4o-latest",
+  input: [
+    {
+      role: "user",
+      content: [
+        {
+          type: "input_file",
+          file_id: file.id,
+        },
+        {
+          type: "input_text",
+          text: "What is the first dragon in the book?",
+        },
+      ],
+    },
+  ],
+});
+
+console.log(response_upload_file.output_text);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${3000}`);
